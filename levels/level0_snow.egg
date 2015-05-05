@@ -1,0 +1,8357 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> character {
+  <Dart> { 1 }
+    <Group> Plane06 {
+      <VertexPool> Plane06.verts {
+        <Vertex> 0 {
+          250 595 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          250 590 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          255 595 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          255 590 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 4 {
+          260 595 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 5 {
+          260 590 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 6 {
+          265 595 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 7 {
+          265 590 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 8 {
+          270 595 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 9 {
+          270 590 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 10 {
+          250 600 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 11 {
+          255 600 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 12 {
+          260 600 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 13 {
+          265 600 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 14 {
+          270 600 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 15 {
+          250 605 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          255 605 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          260 605 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          265 605 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 19 {
+          270 605 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 20 {
+          250 610 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 21 {
+          255 610 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 22 {
+          260 610 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 23 {
+          265 610 38
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 24 {
+          270 610 38
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 0 1 2 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 3 2 1 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 3 4 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 5 4 3 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 4 5 6 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 6 5 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 6 7 8 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 9 8 7 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 10 0 11 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 11 0 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 11 2 12 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 4 12 2 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 12 4 13 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 6 13 4 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 13 6 14 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 8 14 6 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 15 10 16 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 11 16 10 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 16 11 17 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 12 17 11 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 17 12 18 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 13 18 12 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 18 13 19 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 14 19 13 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 20 15 21 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 16 21 15 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 21 16 22 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 17 22 16 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 22 17 23 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 18 23 17 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 23 18 24 <Ref> { Plane06.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 19 24 18 <Ref> { Plane06.verts } }
+      }
+    }
+  <Group> Plane07 {
+    <VertexPool> Plane07.verts {
+      <Vertex> 0 {
+        270 595 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        270 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        275 595 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        275 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        280 595 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        280 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        285 595 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        285 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        290 595 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        290 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        270 600 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        275 600 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        280 600 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        285 600 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        290 600 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        270 605 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        275 605 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        280 605 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        285 605 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        290 605 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        270 610 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        275 610 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        280 610 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        285 610 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        290 610 39
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane07.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane07.verts } }
+    }
+  }
+  <Group> Plane08 {
+    <VertexPool> Plane08.verts {
+      <Vertex> 0 {
+        270 575 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        270 570 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        275 575 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        275 570 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        280 575 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        280 570 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        285 575 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        285 570 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        290 575 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        290 570 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        270 580 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        275 580 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        280 580 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        285 580 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        290 580 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        270 585 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        275 585 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        280 585 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        285 585 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        290 585 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        270 590 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        275 590 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        280 590 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        285 590 40
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        290 590 40
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane08.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane08.verts } }
+    }
+  }
+  <Group> Plane09 {
+    <VertexPool> Plane09.verts {
+      <Vertex> 0 {
+        250 575 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        250 570 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        255 575 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        255 570 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        260 575 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        260 570 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        265 575 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        265 570 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        270 575 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        270 570 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        250 580 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        255 580 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        260 580 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        265 580 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        270 580 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        250 585 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        255 585 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        260 585 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        265 585 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        270 585 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        250 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        255 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        260 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        265 590 39
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        270 590 39
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane09.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane09.verts } }
+    }
+  }
+  <Group> Plane10 {
+    <VertexPool> Plane10.verts {
+      <Vertex> 0 {
+        290 575 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        290 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        295 575 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        295 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        300 575 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        300 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        305 575 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        305 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        310 575 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        310 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        290 580 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        295 580 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        300 580 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        305 580 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        310 580 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        290 585 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        295 585 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        300 585 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        305 585 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        310 585 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        290 590 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        295 590 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        300 590 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        305 590 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        310 590 41
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane10.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane10.verts } }
+    }
+  }
+  <Group> Plane11 {
+    <VertexPool> Plane11.verts {
+      <Vertex> 0 {
+        290 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        290 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        295 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        295 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        300 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        300 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        305 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        305 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        310 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        310 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        290 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        295 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        300 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        305 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        310 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        290 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        295 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        300 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        305 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        310 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        290 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        295 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        300 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        305 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        310 570 41
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane11.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane11.verts } }
+    }
+  }
+  <Group> Plane12 {
+    <VertexPool> Plane12.verts {
+      <Vertex> 0 {
+        270 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        270 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        275 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        275 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        280 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        280 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        285 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        285 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        290 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        290 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        270 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        275 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        280 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        285 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        290 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        270 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        275 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        280 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        285 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        290 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        270 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        275 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        280 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        285 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        290 570 41
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane12.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane12.verts } }
+    }
+  }
+  <Group> Plane13 {
+    <VertexPool> Plane13.verts {
+      <Vertex> 0 {
+        290 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        290 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        295 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        295 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        300 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        300 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        305 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        305 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        310 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        310 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        290 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        295 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        300 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        305 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        310 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        290 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        295 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        300 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        305 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        310 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        290 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        295 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        300 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        305 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        310 550 42
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane13.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane13.verts } }
+    }
+  }
+  <Group> Plane14 {
+    <VertexPool> Plane14.verts {
+      <Vertex> 0 {
+        310 535 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 535 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 535 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 535 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 535 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 540 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 540 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 540 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 540 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 540 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 545 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 545 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 545 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 545 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 545 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 550 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 550 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 550 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 550 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 550 43
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane14.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane14.verts } }
+    }
+  }
+  <Group> Plane15 {
+    <VertexPool> Plane15.verts {
+      <Vertex> 0 {
+        310 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 530 43
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane15.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane15.verts } }
+    }
+  }
+  <Group> Plane16 {
+    <VertexPool> Plane16.verts {
+      <Vertex> 0 {
+        290 515 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        290 510 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        295 515 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        295 510 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        300 515 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        300 510 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        305 515 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        305 510 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        310 515 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        310 510 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        290 520 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        295 520 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        300 520 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        305 520 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        310 520 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        290 525 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        295 525 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        300 525 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        305 525 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        310 525 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        290 530 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        295 530 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        300 530 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        305 530 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        310 530 42.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane16.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane16.verts } }
+    }
+  }
+  <Group> Plane17 {
+    <VertexPool> Plane17.verts {
+      <Vertex> 0 {
+        310 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane17.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane17.verts } }
+    }
+  }
+  <Group> Plane18 {
+    <VertexPool> Plane18.verts {
+      <Vertex> 0 {
+        330 495 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335 495 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340 495 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345 495 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350 495 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330 500 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335 500 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340 500 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345 500 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350 500 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330 505 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335 505 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340 505 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345 505 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350 505 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330 510 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335 510 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340 510 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345 510 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350 510 44
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane18.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane18.verts } }
+    }
+  }
+  <Group> Plane19 {
+    <VertexPool> Plane19.verts {
+      <Vertex> 0 {
+        330 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane19.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane19.verts } }
+    }
+  }
+  <Group> Plane20 {
+    <VertexPool> Plane20.verts {
+      <Vertex> 0 {
+        310 475 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 470 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 475 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 470 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 475 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 470 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 475 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 470 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 475 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 470 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 480 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 480 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 480 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 480 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 480 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 485 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 485 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 485 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 485 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 485 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 490 44
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 490 44
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane20.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane20.verts } }
+    }
+  }
+  <Group> Plane23 {
+    <VertexPool> Plane23.verts {
+      <Vertex> 0 {
+        330 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane23.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane23.verts } }
+    }
+  }
+  <Group> Plane24 {
+    <VertexPool> Plane24.verts {
+      <Vertex> 0 {
+        350 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        350 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        355 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        355 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        360 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        360 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        365 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        365 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        370 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        370 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        350 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        355 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        360 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        365 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        370 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        350 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        355 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        360 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        365 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        370 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        350 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        355 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        360 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        365 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        370 470 45
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane24.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane24.verts } }
+    }
+  }
+  <Group> Plane25 {
+    <VertexPool> Plane25.verts {
+      <Vertex> 0 {
+        350 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        350 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        355 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        355 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        360 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        360 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        365 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        365 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        370 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        370 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        350 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        355 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        360 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        365 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        370 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        350 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        355 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        360 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        365 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        370 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        350 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        355 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        360 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        365 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        370 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane25.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane25.verts } }
+    }
+  }
+  <Group> Plane26 {
+    <VertexPool> Plane26.verts {
+      <Vertex> 0 {
+        330 435 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335 435 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340 435 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345 435 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350 435 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330 440 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335 440 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340 440 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345 440 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350 440 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330 445 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335 445 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340 445 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345 445 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350 445 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane26.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane26.verts } }
+    }
+  }
+  <Group> Plane27 {
+    <VertexPool> Plane27.verts {
+      <Vertex> 0 {
+        350 415 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        350 410 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        355 415 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        355 410 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        360 415 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        360 410 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        365 415 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        365 410 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        370 415 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        370 410 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        350 420 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        355 420 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        360 420 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        365 420 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        370 420 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        350 425 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        355 425 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        360 425 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        365 425 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        370 425 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        350 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        355 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        360 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        365 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        370 430 44.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane27.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane27.verts } }
+    }
+  }
+  <Group> Plane28 {
+    <VertexPool> Plane28.verts {
+      <Vertex> 0 {
+        370 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        370 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        375 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        375 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        380 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        380 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        385 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        385 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        390 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        390 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        370 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        375 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        380 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        385 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        390 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        370 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        375 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        380 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        385 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        390 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        370 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        375 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        380 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        385 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        390 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane28.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane28.verts } }
+    }
+  }
+  <Group> Plane29 {
+    <VertexPool> Plane29.verts {
+      <Vertex> 0 {
+        370 395 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        370 390 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        375 395 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        375 390 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        380 395 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        380 390 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        385 395 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        385 390 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        390 395 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        390 390 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        370 400 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        375 400 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        380 400 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        385 400 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        390 400 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        370 405 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        375 405 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        380 405 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        385 405 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        390 405 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        370 410 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        375 410 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        380 410 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        385 410 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        390 410 43
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane29.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane29.verts } }
+    }
+  }
+  <Group> Plane30 {
+    <VertexPool> Plane30.verts {
+      <Vertex> 0 {
+        350 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        350 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        355 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        355 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        360 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        360 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        365 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        365 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        370 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        370 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        350 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        355 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        360 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        365 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        370 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        350 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        355 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        360 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        365 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        370 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        350 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        355 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        360 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        365 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        370 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane30.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane30.verts } }
+    }
+  }
+  <Group> Plane31 {
+    <VertexPool> Plane31.verts {
+      <Vertex> 0 {
+        390 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        390 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        395 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        395 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        400 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        400 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        405 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        405 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        410 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        410 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        390 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        395 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        400 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        405 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        410 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        390 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        395 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        400 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        405 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        410 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        390 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        395 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        400 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        405 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        410 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane31.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane31.verts } }
+    }
+  }
+  <Group> Plane157 {
+    <VertexPool> Plane157.verts {
+      <Vertex> 0 {
+        330.009 415 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330.009 410 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335.009 415 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335.009 410 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340.009 415 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340.009 410 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345.009 415 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345.009 410 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350.009 415 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350.009 410 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330.009 420 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335.009 420 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340.009 420 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345.009 420 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350.009 420 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330.009 425 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335.009 425 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340.009 425 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345.009 425 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350.009 425 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330.009 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335.009 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340.009 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345.009 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350.009 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane157.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane157.verts } }
+    }
+  }
+  <Group> Plane158 {
+    <VertexPool> Plane158.verts {
+      <Vertex> 0 {
+        330.009 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330.009 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335.009 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335.009 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340.009 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340.009 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345.009 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345.009 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350.009 395 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350.009 390 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330.009 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335.009 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340.009 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345.009 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350.009 400 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330.009 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335.009 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340.009 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345.009 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350.009 405 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330.009 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335.009 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340.009 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345.009 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350.009 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane158.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane158.verts } }
+    }
+  }
+  <Group> Plane77 {
+    <VertexPool> Plane77.verts {
+      <Vertex> 0 {
+        310 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 555 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 550 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 560 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 565 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 570 41
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 570 41
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane77.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane77.verts } }
+    }
+  }
+  <Group> Plane78 {
+    <VertexPool> Plane78.verts {
+      <Vertex> 0 {
+        270 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        270 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        275 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        275 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        280 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        280 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        285 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        285 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        290 535 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        290 530 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        270 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        275 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        280 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        285 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        290 540 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        270 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        275 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        280 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        285 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        290 545 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        270 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        275 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        280 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        285 550 42
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        290 550 42
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane78.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane78.verts } }
+    }
+  }
+  <Group> Plane83 {
+    <VertexPool> Plane83.verts {
+      <Vertex> 0 {
+        330 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        330 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        335 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        335 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        340 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        340 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        345 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        345 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        350 515 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        350 510 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        330 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        335 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        340 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        345 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        350 520 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        330 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        335 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        340 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        345 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        350 525 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        330 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        335 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        340 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        345 530 43
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        350 530 43
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane83.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane83.verts } }
+    }
+  }
+  <Group> Plane84 {
+    <VertexPool> Plane84.verts {
+      <Vertex> 0 {
+        290 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        290 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        295 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        295 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        300 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        300 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        305 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        305 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        310 495 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        310 490 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        290 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        295 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        300 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        305 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        310 500 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        290 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        295 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        300 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        305 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        310 505 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        290 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        295 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        300 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        305 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        310 510 43.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane84.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane84.verts } }
+    }
+  }
+  <Group> Plane85 {
+    <VertexPool> Plane85.verts {
+      <Vertex> 0 {
+        350 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        350 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        355 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        355 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        360 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        360 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        365 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        365 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        370 475 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        370 470 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        350 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        355 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        360 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        365 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        370 480 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        350 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        355 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        360 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        365 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        370 485 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        350 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        355 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        360 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        365 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        370 490 44.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane85.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane85.verts } }
+    }
+  }
+  <Group> Plane89 {
+    <VertexPool> Plane89.verts {
+      <Vertex> 0 {
+        310 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        310 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        315 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        315 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        320 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        320 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        325 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        325 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        330 455 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        330 450 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        310 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        315 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        320 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        325 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        330 460 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        310 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        315 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        320 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        325 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        330 465 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        310 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        315 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        320 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        325 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        330 470 44.4589
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane89.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane89.verts } }
+    }
+  }
+  <Group> Plane92 {
+    <VertexPool> Plane92.verts {
+      <Vertex> 0 {
+        370 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        370 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        375 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        375 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        380 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        380 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        385 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        385 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        390 455 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        390 450 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        370 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        375 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        380 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        385 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        390 460 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        370 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        375 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        380 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        385 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        390 465 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        370 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        375 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        380 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        385 470 45
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        390 470 45
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane92.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane92.verts } }
+    }
+  }
+  <Group> Plane93 {
+    <VertexPool> Plane93.verts {
+      <Vertex> 0 {
+        370 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        370 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        375 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        375 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        380 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        380 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        385 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        385 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        390 435 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        390 430 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        370 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        375 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        380 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        385 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        390 440 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        370 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        375 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        380 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        385 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        390 445 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        370 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        375 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        380 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        385 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        390 450 44.1883
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane93.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane93.verts } }
+    }
+  }
+  <Group> Plane56 {
+    <VertexPool> Plane56.verts {
+      <Vertex> 0 {
+        390 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        390 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        395 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        395 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        400 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        400 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        405 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        405 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        410 415 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        410 410 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        390 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        395 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        400 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        405 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        410 420 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        390 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        395 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        400 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        405 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        410 425 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        390 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        395 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        400 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        405 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        410 430 43.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane56.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane56.verts } }
+    }
+  }
+  <Group> Plane94 {
+    <VertexPool> Plane94.verts {
+      <Vertex> 0 {
+        410 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        410 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        415 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        415 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 4 {
+        420 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 5 {
+        420 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 6 {
+        425 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 7 {
+        425 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 8 {
+        430 395 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 9 {
+        430 390 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 10 {
+        410 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 11 {
+        415 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 12 {
+        420 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 13 {
+        425 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 14 {
+        430 400 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 15 {
+        410 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 16 {
+        415 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 17 {
+        420 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 18 {
+        425 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 19 {
+        430 405 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 20 {
+        410 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 21 {
+        415 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 22 {
+        420 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 23 {
+        425 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 24 {
+        430 410 42.7294
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 4 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 4 3 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 5 6 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 6 5 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 7 8 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 9 8 7 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 10 0 11 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 11 0 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 2 12 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 4 12 2 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 4 13 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 13 4 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 6 14 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 14 6 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 15 10 16 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 11 16 10 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 11 17 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 12 17 11 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 12 18 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 13 18 12 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 13 19 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 14 19 13 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 20 15 21 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 16 21 15 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 21 16 22 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 17 22 16 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 22 17 23 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 18 23 17 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 23 18 24 <Ref> { Plane94.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 19 24 18 <Ref> { Plane94.verts } }
+    }
+  }
+}

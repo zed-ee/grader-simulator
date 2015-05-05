@@ -1,0 +1,237 @@
+from pandac.PandaModules import Texture, TextureStage, Shader, PNMImage
+from pandac.PandaModules import Vec2,Vec3,Vec4,BitMask32
+from pandac.PandaModules import NodePath,PandaNode,ShaderAttrib, OmniBoundingVolume, Filename
+from direct.showbase.DirectObject import DirectObject
+import math
+
+PLANE_SIZE = 20.0
+BITMAP_SIZE = 256
+DETAIL_SNOW_PLANES = [(240,640), (260,640), (240, 620), (260, 620),(260, 600),(280, 600),(260, 580),(280, 580),(300, 580),
+(280,560), (300, 560), (300, 540), (320, 540), (300, 520), (320, 520), (320, 500),(340, 500), (320, 480),(340, 480)]
+
+def irange(start, finish):
+    if start == finish:
+        return [start]
+    if start < finish:
+        return range(start, finish + 1)
+    if start > finish:
+        return range(start, finish - 1, -1)
+
+class SnowGrid(DirectObject):
+    def __init__(self, parent):
+        self.snow = NodePath(PandaNode("snow_planes"))
+        self.snow.reparentTo(render)
+
+        self.tracks = {}
+        self.planes = {}
+        self.updates = {}
+        self.shader = Shader.load(Shader.SLGLSL, "SnowMachine/snow_vrtx.sha", "SnowMachine/snow_frag.sha","") 
+        print "Loading snow planes...",
+        
+        for x in range(len(DETAIL_SNOW_PLANES)):
+            node = loader.loadModel("models/helpers/plane_hi")
+            node.reparentTo(self.snow)
+            node.setPos(DETAIL_SNOW_PLANES[x][0], DETAIL_SNOW_PLANES[x][1], 0)
+            node.setShaderInput("pos", DETAIL_SNOW_PLANES[x][0], DETAIL_SNOW_PLANES[x][1], 0, 0)
+            #node.setDepthWrite(False)
+            #node.setDepthTest(False)
+            rx = DETAIL_SNOW_PLANES[x][0]/20
+            ry = DETAIL_SNOW_PLANES[x][1]/20
+            if not self.planes.has_key(rx):
+               self.planes[rx] = {}
+            self.planes[rx][ry] = node
+            if not self.tracks.has_key(rx):
+               self.tracks[rx] = {}
+            self.tracks[rx][ry] = PNMImage(BITMAP_SIZE,BITMAP_SIZE)
+            self.tracks[rx][ry].fill(1, 1, 1)
+            
+        
+        
+        for x in range(10, 20):
+            for y in range(10, 20):
+                node = loader.loadModel("models/helpers/plane_med")
+                node.reparentTo(self.snow)
+                cx = x * PLANE_SIZE
+                cy = y * PLANE_SIZE
+                #print `(cx, cy)`
+                node.setPos(cx, cy, 0)
+                node.setName("plane_"+str(x)+str(y))
+                node.setShaderInput("pos", cx, cy, 0, 0)
+                if not self.planes.has_key(x):
+                   self.planes[x] = {}
+                self.planes[x][y] = node
+                if not self.tracks.has_key(x):
+                   self.tracks[x] = {}
+                self.tracks[x][y] = PNMImage(BITMAP_SIZE,BITMAP_SIZE)
+                self.tracks[x][y].fill(1, 1, 1)
+
+                #myShaderAttrib = ShaderAttrib.make()
+                #myShaderAttrib = myShaderAttrib.setShader(Shader.load("myshader.sha"))
+                #myShaderAttrib = myShaderAttrib.setShaderInput("pos", cx, cy, 0, 0)
+                #node.setInitialState(render.getState().addAttrib(myShaderAttrib))
+                
+        #print "done", `self.tracks`
+        
+        self.ground = loader.loadTexture('heightmap/medium/heightmap.bmp')
+        #snow = loader.loadTexture('plane_copy.png')
+        #tracks = loader.loadTexture('tracks.png')
+        #tex2.setMinfilter( Texture.FTNearest )
+        #tex2.setFormat(Texture.FRgba32)
+
+
+        tex3 = loader.loadTexture('models/SnowTexture.jpg')
+        self.snow.setTexture(tex3)
+        self.snow.setShaderInput("colorMap", tex3)
+        self.snow.setShaderInput("ground", self.ground)
+        #parent.setShaderInput("pos", 0, 0, 0, 0)
+        tex3 = loader.loadTexture('empty.png')
+        self.snow.setTexture(tex3)
+        parent.setShaderInput("tracks", tex3)
+        #cube.setShaderInput("snow", snow)
+        #cube.setShaderInput("snowHeight", Vec4(100, 100, 100, 100))
+
+        self.snow.node().setBounds(OmniBoundingVolume()) 
+        self.snow.node().setFinal(True) 
+        self.snow.setShader(self.shader)      
+        #taskMgr.add(self.paintSnow,"paintSnow")
+        self.accept('p',self.write)
+        
+    def paintSnow(self, task):        
+        if base.mouseWatcherNode.hasMouse():
+            #get the mouse position as a Vec2. The values for each axis are from -1 to
+            #1. The top-left is (-1,-1), the bottom right is (1,1)
+            mpos = base.mouseWatcherNode.getMouse()    
+            x = (mpos.getX()*200) + 300
+            y = (mpos.getY()*200) + 300 
+            
+            rx = int(math.floor(x / 20)*20)+10
+            ry = int(math.floor(y / 20)*20)+10
+            dx = int((((x - rx) / 20)-0.5) * BITMAP_SIZE)
+            dy = (BITMAP_SIZE-1) - int((((y - ry)  / 20)+0.5) *BITMAP_SIZE)
+            rx = rx 
+            ry = ry
+            if self.tracks.has_key(rx) and self.tracks[rx].has_key(ry):
+                print "mouse: ", `(x,y)`, `(rx,ry)`, `(dx,dy)`, 
+                self.tracks[rx][ry].setXelVal(dx, dy, 255, 255, 255)
+                val = self.tracks[rx][ry].getXelVal(dx, dy)
+                print `(val[0],val[1],val[2])`
+                #self.tracks[rx][ry].write('out/a'+str(rx)+'_'+str(ry)+'.png')
+                myTexture=Texture()
+                myTexture.load(self.tracks[rx][ry])
+                self.planes[rx][ry].setShaderInput("pos", rx, ry, 0, 0)
+                self.planes[rx][ry].setShaderInput("tracks", myTexture)
+                self.planes[rx][ry].setShaderInput("ground", self.ground)
+                
+        return task.cont
+    
+    def calcPicturePos(self, x, y):
+        """
+        rx = int(math.floor(x / PLANE_SIZE)*PLANE_SIZE)+PLANE_SIZE/2 
+        ry = int(math.floor(y / PLANE_SIZE)*PLANE_SIZE)+PLANE_SIZE/2
+        dx = int((((x - rx) / PLANE_SIZE)+0.5) * BITMAP_SIZE)
+        dy = (BITMAP_SIZE-1) - int((((y - ry)  / PLANE_SIZE)+0.5) *BITMAP_SIZE)
+        px = ((rx / PLANE_SIZE) * BITMAP_SIZE)  + dx
+        py = ((ry / PLANE_SIZE) * BITMAP_SIZE)  + dy
+        """
+        px = ((x / PLANE_SIZE) + 0.5) * BITMAP_SIZE
+        py = ((y / PLANE_SIZE) + 0.5) * BITMAP_SIZE
+        return (px, py)
+        
+    def paintWheel(self, fromPos, toPos):
+        #print `(fromPos, toPos)`
+        (x1, y1) = self.calcPicturePos(fromPos[0], fromPos[1])
+        (x2, y2) = self.calcPicturePos(toPos[0], toPos[1])
+        #print `((x1, y1), (x2, y2))`
+        self.drawLine(x1, y1, x2, y2, Vec3(0, 0, 0.3))
+        
+        """
+        if self.tracks.has_key(rx) and self.tracks[rx].has_key(ry):
+            print `((rx, ry), (dx, dy))`
+            self.tracks[rx][ry].setXelVal(dx, dy, 255, 255, 255)
+          
+            self.update(rx, ry)
+        """
+    def redraw(self):
+        for i in range(len(self.updates)):
+            (x, y) = self.updates.keys()[i]
+            self.updateShader(x, y)
+        self.updates = {}
+    
+    def updateShader(self, rx, ry):
+        myTexture=Texture()
+        myTexture.load(self.tracks[rx][ry])
+#        self.planes[rx][ry].setShaderInput("pos", rx, ry, 0, 0)
+        self.planes[rx][ry].setShaderInput("tracks", myTexture)
+#        self.planes[rx][ry].setShaderInput("ground", self.ground)
+    
+    def write(self):        
+        for x in range(len(self.tracks)):
+            rx = self.tracks.keys()[x]
+            for y in range(len(self.tracks[rx])):
+                ry = self.tracks[rx].keys()[y]
+                self.tracks[rx][ry].write('out/a'+str(ry)+'_'+str(rx)+'.png')
+     
+     
+    def drawPixel(self, x, y, c):
+        for a in range(-2, 3):
+            for b in range(-2, 3):
+                old = self.getPixelReal(x+a, y+b)
+                if (old != None):
+                    m = (abs(a)+abs(b))
+                    self.drawPixelReal(x+a, y+b, min(old[0], c[0]), 0, min(old[2], c[2]*m))    
+            
+    def getPixelReal(self, x, y):
+        rx = int(math.floor(x / BITMAP_SIZE)) 
+        ry = int(math.floor(y / BITMAP_SIZE))
+        dx = int(x - rx * BITMAP_SIZE)
+        dy = int(y - ry * BITMAP_SIZE)
+        #print `((rx, ry), (dx, dy))`
+        if self.tracks.has_key(rx) and self.tracks[rx].has_key(ry):
+            return self.tracks[rx][ry].getXel(dx, BITMAP_SIZE - dy -1)
+        else:
+            return None
+    
+    def drawPixelReal(self, x, y, r, g, b):
+        rx = int(math.floor(x / BITMAP_SIZE)) 
+        ry = int(math.floor(y / BITMAP_SIZE))
+        dx = int(x - rx * BITMAP_SIZE)
+        dy = int(y - ry * BITMAP_SIZE)
+        #print `((rx, ry), (dx, dy))`
+        if self.tracks.has_key(rx) and self.tracks[rx].has_key(ry):
+            #print 'xxx>' + `((rx, ry), (dx, dy), (r,g,b))`
+            self.tracks[rx][ry].setXel(dx, BITMAP_SIZE - dy -1, r, g, b)
+            self.updates[(rx, ry)] = True
+    
+    def drawLine(self, x0, y0, x1, y1, c):
+        orig_x0 = x0
+        orig_y0 = y0
+     
+        if abs(y1 - y0) > abs(x1 - x0):
+            steep = True
+        else:
+            steep = False
+     
+        if steep:
+            x0, y0 = y0, x0
+            x1, y1 = y1, x1
+        if x0 > x1:
+            x0, x1 = x1, x0
+            y0, y1 = y1, y0
+     
+        deltax = x1 - x0
+        deltay = abs(y1 - y0)
+        error = deltax / 2
+        y = y0
+        if y0 < y1:
+            ystep = 1 
+        else:
+             ystep = -1
+        for x in irange(x0,x1):
+            if steep:
+                self.drawPixel(y, x, c)
+            else:
+                self.drawPixel(x, y, c)
+            error = error - deltay
+            if error < 0:
+                y = y + ystep
+                error = error + deltax

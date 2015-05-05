@@ -1,0 +1,305 @@
+<CoordinateSystem> { Z-Up }
+
+<Texture> Tex1 {
+  "summer/puud/noor_puu.png"
+  <Scalar> format { rgba }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Group> character {
+  <Dart> { 1 }
+  <Group> "Scene Root" {
+    <Group> Plane02 {
+      <VertexPool> Plane02.verts {
+        <Vertex> 0 {
+          -2.25903 5.96932e-007 0.804902
+          <UV> { 0 0.25 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 1 {
+          -2.25903 5.11656e-007 -0.324613
+          <UV> { 0 0 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 2 {
+          -1.12951 2.55828e-007 0.804902
+          <UV> { 0.25 0.25 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 3 {
+          -1.12951 1.70552e-007 -0.324613
+          <UV> { 0.25 0 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 4 {
+          -2.57526e-014 -8.5276e-008 0.804902
+          <UV> { 0.5 0.25 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 5 {
+          -5.15053e-014 -1.70552e-007 -0.324613
+          <UV> { 0.5 0 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 6 {
+          1.12951 -4.2638e-007 0.804902
+          <UV> { 0.75 0.25 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 7 {
+          1.12951 -5.11656e-007 -0.324613
+          <UV> { 0.75 0 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 8 {
+          2.25903 -7.67484e-007 0.804902
+          <UV> { 1 0.25 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 9 {
+          2.25903 -8.5276e-007 -0.324613
+          <UV> { 1 0 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 10 {
+          -2.25903 6.82208e-007 1.93442
+          <UV> { 0 0.5 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 11 {
+          -1.12951 3.41104e-007 1.93442
+          <UV> { 0.25 0.5 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 12 {
+          0 0 1.93442
+          <UV> { 0.5 0.5 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 13 {
+          1.12951 -3.41104e-007 1.93442
+          <UV> { 0.75 0.5 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 14 {
+          2.25903 -6.82208e-007 1.93442
+          <UV> { 1 0.5 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 15 {
+          -2.25903 7.67484e-007 3.06393
+          <UV> { 0 0.75 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 16 {
+          -1.12951 4.2638e-007 3.06393
+          <UV> { 0.25 0.75 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 17 {
+          2.57526e-014 8.5276e-008 3.06393
+          <UV> { 0.5 0.75 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 18 {
+          1.12951 -2.55828e-007 3.06393
+          <UV> { 0.75 0.75 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 19 {
+          2.25903 -5.96932e-007 3.06393
+          <UV> { 1 0.75 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 20 {
+          -2.25903 8.5276e-007 4.19345
+          <UV> { 0 1 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 21 {
+          -1.12951 5.11656e-007 4.19345
+          <UV> { 0.25 1 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 22 {
+          5.15053e-014 1.70552e-007 4.19345
+          <UV> { 0.5 1 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 23 {
+          1.12951 -1.70552e-007 4.19345
+          <UV> { 0.75 1 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+        <Vertex> 24 {
+          2.25903 -5.11656e-007 4.19345
+          <UV> { 1 1 }
+          <Normal> { -2.72883e-008 -0.0903612 6.82208e-009 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 0 1 2 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 3 2 1 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 2 3 4 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 5 4 3 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 4 5 6 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 7 6 5 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 6 7 8 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 9 8 7 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 10 0 11 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 2 11 0 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 11 2 12 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 4 12 2 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 12 4 13 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 6 13 4 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 13 6 14 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 8 14 6 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 15 10 16 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 11 16 10 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 16 11 17 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 12 17 11 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 17 12 18 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 13 18 12 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 18 13 19 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 14 19 13 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 20 15 21 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 16 21 15 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 21 16 22 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 17 22 16 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 22 17 23 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 18 23 17 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 23 18 24 <Ref> { Plane02.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 19 24 18 <Ref> { Plane02.verts } }
+      }
+    }
+  }
+}

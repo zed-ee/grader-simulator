@@ -1,0 +1,43 @@
+//GLSL 
+uniform sampler2D colorMap;
+uniform sampler2D tracks;
+uniform sampler2D ground;
+uniform vec4 color;
+
+varying vec3 normal;
+varying vec4 vertex;
+varying vec4 cdiff;
+	
+void main(void) {
+
+float r = 1-texture2D(tracks, gl_TexCoord[0].xy).b;
+/*
+if (r > 0.7) {
+    r = 0.7;
+}
+*/
+vec4   color = texture2D(colorMap, gl_TexCoord[0].xy *10.0) * (cdiff.g);
+//color.a = 0.4;
+ //    color = cdiff;
+//    gl_FragColor = texture2D(ground, gl_TexCoord[1].xy);
+	gl_FragColor = color;
+/*
+	// LIGHTING
+	vec3 vertex_to_light_vector = gl_LightSource[0].position – vertex;
+	// Defining The Material Colors
+	const vec4 AmbientColor = vec4(0.4, 0.4, 0.35, 1.0);
+	vec4 DiffuseColor = color;
+
+	// Scaling The Input Vector To Length 1
+	vec3 normalized_normal = normalize(normal);
+	vec3 normalized_vertex_to_light_vector = normalize(vertex_to_light_vector);
+
+	// Calculating The Diffuse Term And Clamping It To [0;1]
+	float DiffuseTerm = clamp(dot(normal, vertex_to_light_vector), 0.0, 1.0);
+
+	// Calculating The Final Color
+	gl_FragColor = AmbientColor + DiffuseColor * DiffuseTerm;
+
+//	gl_FragColor = color;
+*/
+}

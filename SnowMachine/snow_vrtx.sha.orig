@@ -1,0 +1,40 @@
+//GLSL
+uniform sampler2D ground;
+//uniform sampler2D snow;
+uniform sampler2D tracks;
+uniform vec4 pos;
+
+#define max_height 60.0	// black value
+#define min_height 0.0
+#define BITMAP_SIZE 257.0
+#define REAL_SIZE 1200.0
+#define PLANE_SIZE 20.0
+void main(void)
+{
+	vec4 newVertexPos;
+	vec4 dsnow;
+	vec4 dtracks;
+	vec4 dground;
+	float df;
+    vec4 realcoord;
+	gl_TexCoord[0].xy = gl_MultiTexCoord0.xy;
+	gl_TexCoord[1].xy = gl_MultiTexCoord0.xy;
+	
+    realcoord = ((((BITMAP_SIZE*(gl_Vertex + pos) / REAL_SIZE)-2.0) / BITMAP_SIZE)+1.0)/ BITMAP_SIZE;
+    realcoord = ((gl_Vertex + pos) / REAL_SIZE);
+//	vec4 realcoord = ((((256*(gl_Vertex + pos) /100)-2) /256)+1)/256;
+	//gl_TexCoord[0].xy = realcoord.xy;
+	gl_TexCoord[0].xy = gl_Vertex.xy / PLANE_SIZE + 0.5;
+
+//    dsnow = texture2D(snow, gl_MultiTexCoord0.xy);
+    dground = texture2D(ground, realcoord.xy);
+    dtracks = texture2D(tracks, gl_TexCoord[0].xy);
+
+	df = max_height - (dground.z * max_height) + dtracks.z*0.5 - 0.1;
+	
+	newVertexPos = gl_Vertex;// + pos;
+	newVertexPos = vec4(gl_Normal * df, 0.0) + newVertexPos;
+	//newVertexPos.z = 0.0 - df;
+	//newVertexPos.z = realcoord.x;
+	gl_Position = gl_ModelViewProjectionMatrix *  newVertexPos;
+}

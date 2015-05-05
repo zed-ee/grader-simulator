@@ -1,0 +1,50 @@
+from direct.interval.IntervalGlobal import *
+from pandac.PandaModules import Vec3
+class CarAnimation:
+    def __init__(self, car):
+        #return
+        self.seq = Sequence(
+            LerpPosHprInterval(car, pos=Vec3(3717.84, 255.365, 110.147), hpr=Vec3(-82.0893, -0.849234, -0.929079), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3757.87, 263.709, 109.481), hpr=Vec3(-73.4475, -2.47677, 1.71375), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3796.11, 281.634, 107.912), hpr=Vec3(-61.5184, -1.64317, 0.461033), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3812.37, 291.972, 107.301), hpr=Vec3(-54.4122, -1.92887, -0.174938), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(3826.87, 307.764, 106.33), hpr=Vec3(-33.4967, -4.04371, 0.102818), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(3831.93, 319.184, 105.591), hpr=Vec3(-17.829, -4.25371, 1.70214), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(3833.9, 339.911, 103.969), hpr=Vec3(-2.34065, -3.83497, 0.468864), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(3824.35, 377.26, 101.424), hpr=Vec3(24.2674, -3.49297, 2.89833), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3802.83, 438.798, 97.2453), hpr=Vec3(16.252, -3.60241, 3.27341), duration=4),
+            LerpPosHprInterval(car, pos=Vec3(3787.33, 497.301, 93.2886), hpr=Vec3(13.9264, -3.78941, 3.8868), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3774.29, 553.283, 89.3784), hpr=Vec3(12.9743, -3.74148, 4.51786), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3765.02, 597.771, 86.3435), hpr=Vec3(10.8369, -3.74817, 4.44193), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3756.75, 648.774, 82.8765), hpr=Vec3(7.60414, -3.8583, 3.4409), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3750.1, 704.628, 78.9983), hpr=Vec3(5.34427, -3.97154, 1.67084), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3744.88, 754.544, 75.3853), hpr=Vec3(6.11824, -4.14033, -0.161303), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3732.48, 829.286, 69.839), hpr=Vec3(17.291, -4.35786, -3.47594), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(3708.91, 883.223, 65.2701), hpr=Vec3(28.0501, -3.65329, -5.9955), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3684.4, 915.353, 62.4529), hpr=Vec3(45.5497, -3.85461, -5.71529), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3640.99, 952.296, 59.0541), hpr=Vec3(56.7024, -3.06328, -4.85535), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3612.28, 964.768, 57.0993), hpr=Vec3(70.5491, -3.44517, -4.95829), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(3558.92, 978.862, 53.9296), hpr=Vec3(81.3877, -3.0363, -3.87183), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3500.51, 985.997, 51.1066), hpr=Vec3(84.5103, -2.26696, -1.82668), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3454.74, 988.563, 49.3582), hpr=Vec3(87.6548, -1.91525, 0.230116), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3412.75, 989.713, 48.0417), hpr=Vec3(88.77, -1.50725, -0.604285), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3376.41, 988.186, 47.1605), hpr=Vec3(97.9713, -1.06049, -1.02519), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3333.71, 980.366, 46.9361), hpr=Vec3(102.457, -0.0853469, -1.75072), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3301.36, 971.332, 46.6085), hpr=Vec3(107.23, 0.0639165, -1.41001), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3261.98, 956.762, 46.5803), hpr=Vec3(111.853, -0.0525734, -1.42053), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(3183.15, 922.481, 46.5475), hpr=Vec3(113.664, 0.380056, -0.340601), duration=4),
+            LerpPosHprInterval(car, pos=Vec3(3118.46, 891.389, 47.0866), hpr=Vec3(115.357, 0.652181, -0.283855), duration=4),
+            LerpPosHprInterval(car, pos=Vec3(3013.91, 843.335, 49.3649), hpr=Vec3(113.661, 1.85697, 1.00841), duration=6),
+            LerpPosHprInterval(car, pos=Vec3(2949.9, 817.655, 52.1827), hpr=Vec3(109.109, 2.92192, 1.86673), duration=4),
+            LerpPosHprInterval(car, pos=Vec3(2907.73, 804.059, 54.6131), hpr=Vec3(106.634, 3.58433, 2.44202), duration=3),
+            LerpPosHprInterval(car, pos=Vec3(2869.41, 793.661, 57.2003), hpr=Vec3(104.443, 4.12709, 2.73073), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(2843.8, 786.778, 59.1557), hpr=Vec3(106.234, 4.61535, 2.93314), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(2823.85, 777.095, 61.0966), hpr=Vec3(125.141, 5.36624, 1.10281), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(2814.44, 767.464, 62.348), hpr=Vec3(139.18, 5.10412, -0.868101), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(2808.59, 755.933, 63.2735), hpr=Vec3(161.383, 1.45921, -4.10572), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(2806.89, 739.341, 63.1313), hpr=Vec3(176.719, 0.200069, -8.85691), duration=1),
+            LerpPosHprInterval(car, pos=Vec3(2809.67, 719.609, 62.6912), hpr=Vec3(190.552, -0.0977746, -11.0692), duration=2),
+            LerpPosHprInterval(car, pos=Vec3(2820.48, 675.747, 62.3193), hpr=Vec3(192.922, -0.585154, -5.12286), duration=3),
+        )
+    def play(self):
+        self.seq.loop()

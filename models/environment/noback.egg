@@ -1,0 +1,84 @@
+<CoordinateSystem> { Z-Up }
+
+<Texture> Tex1 {
+  "../stop.png"
+  <Scalar> format { rgba }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Group> character {
+  <Dart> { 1 }
+  <Group> "Scene Root" {
+    <Group> noback {
+      <VertexPool> noback.verts {
+        <Vertex> 0 {
+          286.617 513.618 42.4441
+          <UV> { -1.30901 0.000500411 }
+          <Normal> { 0.5 -0.866025 -1.11956e-007 }
+        }
+        <Vertex> 1 {
+          331.34 539.438 42.4441
+          <UV> { 2.30901 0.000499576 }
+          <Normal> { 0.5 -0.866025 -1.11956e-007 }
+        }
+        <Vertex> 2 {
+          331.34 539.438 56.3071
+          <UV> { 2.30901 0.9995 }
+          <Normal> { 0.5 -0.866025 -1.11956e-007 }
+        }
+        <Vertex> 3 {
+          286.617 513.618 56.3071
+          <UV> { -1.30901 0.999501 }
+          <Normal> { 0.5 -0.866025 -1.11956e-007 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 0 1 2 <Ref> { noback.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 2 3 0 <Ref> { noback.verts } }
+      }
+    }
+  }
+  <Group> noback01 {
+    <VertexPool> noback01.verts {
+      <Vertex> 0 {
+        320.799 457.752 43.4242
+        <UV> { -1.30901 0.000500411 }
+        <Normal> { 0.5 -0.866025 -1.11956e-007 }
+      }
+      <Vertex> 1 {
+        365.522 483.573 43.4242
+        <UV> { 2.30901 0.000499576 }
+        <Normal> { 0.5 -0.866025 -1.11956e-007 }
+      }
+      <Vertex> 2 {
+        365.522 483.573 57.2872
+        <UV> { 2.30901 0.9995 }
+        <Normal> { 0.5 -0.866025 -1.11956e-007 }
+      }
+      <Vertex> 3 {
+        320.799 457.752 57.2872
+        <UV> { -1.30901 0.999501 }
+        <Normal> { 0.5 -0.866025 -1.11956e-007 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Tex1 }
+      <VertexRef> { 0 1 2 <Ref> { noback01.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { Tex1 }
+      <VertexRef> { 2 3 0 <Ref> { noback01.verts } }
+    }
+  }
+}

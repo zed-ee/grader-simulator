@@ -1,0 +1,305 @@
+<CoordinateSystem> { Z-Up }
+
+<Texture> Tex1 {
+  "/l/mm/maps/glass.png"
+  <Scalar> format { rgba }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Group> character {
+  <Dart> { 1 }
+  <Group> "Scene Root" {
+    <Group> peegli_klaasid {
+      <VertexPool> peegli_klaasid.verts {
+        <Vertex> 0 {
+          -2.54337 1.20356 4.76313
+          <UV> { 0.652071 0.249187 }
+          <Normal> { 0.00742778 -0.0100849 -3.50374e-006 }
+        }
+        <Vertex> 1 {
+          -2.68137 1.10156 4.76313
+          <UV> { 0.865154 0.249367 }
+          <Normal> { 0.00744489 -0.0100723 -9.84483e-006 }
+        }
+        <Vertex> 2 {
+          -2.64179 1.13124 4.56198
+          <UV> { 0.803683 -0.00160885 }
+          <Normal> { 0.00742879 -0.0100841 -9.32559e-006 }
+        }
+        <Vertex> 3 {
+          -2.54337 1.20356 4.56198
+          <UV> { 0.652071 -0.00174046 }
+          <Normal> { 0.00741601 -0.0100935 0 }
+        }
+        <Vertex> 4 {
+          -2.44494 1.27587 4.76313
+          <UV> { 0.500469 0.249055 }
+          <Normal> { 0.00702347 -0.0103705 0 }
+        }
+        <Vertex> 5 {
+          -2.44494 1.27587 4.56198
+          <UV> { 0.500469 -0.00187302 }
+          <Normal> { 0.0072377 -0.0102196 -0.000226862 }
+        }
+        <Vertex> 6 {
+          -2.29704 1.36798 4.76313
+          <UV> { 0.286459 0.248723 }
+          <Normal> { 0.00711158 -0.0103059 -0.000301672 }
+        }
+        <Vertex> 7 {
+          -2.34651 1.34819 4.56198
+          <UV> { 0.348844 -0.00200462 }
+          <Normal> { 0.00739982 -0.0100713 -0.000829182 }
+        }
+        <Vertex> 8 {
+          -2.19861 1.4403 4.76313
+          <UV> { 0.134847 0.248591 }
+          <Normal> { 0.00741303 -0.0100886 -0.000378922 }
+        }
+        <Vertex> 9 {
+          -2.24809 1.42051 4.56198
+          <UV> { 0.197232 -0.00213623 }
+          <Normal> { 0.00740017 -0.0100711 -0.000829308 }
+        }
+        <Vertex> 10 {
+          -2.54337 1.20356 4.9643
+          <UV> { 0.652071 0.500132 }
+          <Normal> { 0.00743026 -0.0100831 0 }
+        }
+        <Vertex> 11 {
+          -2.68137 1.10156 4.9643
+          <UV> { 0.865154 0.500311 }
+          <Normal> { 0.00744489 -0.0100723 0 }
+        }
+        <Vertex> 12 {
+          -2.19861 1.4403 4.9643
+          <UV> { 0.134847 0.499536 }
+          <Normal> { 0.00741642 -0.0100932 0 }
+        }
+        <Vertex> 13 {
+          -2.29704 1.36798 4.9643
+          <UV> { 0.286459 0.499667 }
+          <Normal> { 0.00702389 -0.0103702 0 }
+        }
+        <Vertex> 14 {
+          -2.54337 1.20356 5.16545
+          <UV> { 0.652071 0.75106 }
+          <Normal> { 0.00743026 -0.0100831 0 }
+        }
+        <Vertex> 15 {
+          -2.68137 1.10156 5.16545
+          <UV> { 0.865154 0.75124 }
+          <Normal> { 0.00744033 -0.0100756 4.83858e-006 }
+        }
+        <Vertex> 16 {
+          -2.19861 1.4403 5.16545
+          <UV> { 0.134847 0.750464 }
+          <Normal> { 0.00741302 -0.0100886 0.000378906 }
+        }
+        <Vertex> 17 {
+          -2.29704 1.36798 5.16545
+          <UV> { 0.286459 0.750596 }
+          <Normal> { 0.00705279 -0.0103442 0.000362904 }
+        }
+        <Vertex> 18 {
+          -2.54337 1.20356 5.36661
+          <UV> { 0.652071 1.002 }
+          <Normal> { 0.00742242 -0.0100888 8.30304e-006 }
+        }
+        <Vertex> 19 {
+          -2.64179 1.13124 5.36661
+          <UV> { 0.803683 1.00214 }
+          <Normal> { 0.0074164 -0.0100932 3.01723e-005 }
+        }
+        <Vertex> 20 {
+          -2.44494 1.27587 5.36661
+          <UV> { 0.500469 1.00187 }
+          <Normal> { 0.00741572 -0.0100938 0 }
+        }
+        <Vertex> 21 {
+          -2.44494 1.27587 5.16545
+          <UV> { 0.500469 0.750928 }
+          <Normal> { 0.00709214 -0.0103232 9.51429e-005 }
+        }
+        <Vertex> 22 {
+          -2.34651 1.34819 5.36661
+          <UV> { 0.348844 1.00174 }
+          <Normal> { 0.0072125 -0.0102279 0.0004965 }
+        }
+        <Vertex> 23 {
+          -2.24809 1.42051 5.36661
+          <UV> { 0.197232 1.00161 }
+          <Normal> { 0.00740016 -0.0100711 0.000829242 }
+        }
+        <Vertex> 24 {
+          -2.44494 1.27587 4.9643
+          <UV> { 0.500469 0.499999 }
+          <Normal> { 0.00702347 -0.0103705 0 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 0 1 2 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 0 2 3 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 4 0 3 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 4 3 5 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 6 4 5 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 7 6 5 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 8 6 7 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 8 7 9 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 10 11 1 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 10 1 0 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 12 13 6 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 12 6 8 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 14 15 11 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 14 11 10 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 16 17 13 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 12 16 13 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 18 19 15 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 18 15 14 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 20 18 14 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 20 14 21 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 22 20 21 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 22 21 17 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 23 22 17 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 23 17 16 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 24 10 0 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 24 0 4 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 13 24 4 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 6 13 4 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 21 14 10 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 24 21 10 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 17 21 24 <Ref> { peegli_klaasid.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { Tex1 }
+        <VertexRef> { 17 24 13 <Ref> { peegli_klaasid.verts } }
+      }
+    }
+  }
+}

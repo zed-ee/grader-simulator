@@ -1,0 +1,36 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> character {
+  <Collide> { Polyset keep descend }
+   <Dart> { 1 }
+  <Group> "Scene Root" {
+    <Group> level1_end {
+      <VertexPool> level1_end.verts {
+        <Vertex> 0 {
+          348.354 415.89 27.7546
+          <Normal> { -0.5 0.866025 4.37114e-008 }
+        }
+        <Vertex> 1 {
+          348.354 415.89 55.1329
+          <Normal> { -0.5 0.866025 4.37114e-008 }
+        }
+        <Vertex> 2 {
+          393.077 441.71 55.1329
+          <Normal> { -0.5 0.866025 4.37114e-008 }
+        }
+        <Vertex> 3 {
+          393.077 441.71 27.7546
+          <Normal> { -0.5 0.866025 4.37114e-008 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 0 1 2 <Ref> { level1_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 3 0 <Ref> { level1_end.verts } }
+      }
+    }
+  }
+}

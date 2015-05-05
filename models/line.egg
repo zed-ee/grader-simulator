@@ -1,0 +1,45 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> Line03 {
+  <VertexPool> Line03.cvs {
+    <Vertex> 0 {
+      3986.36 66.54 111 1
+    }
+    <Vertex> 1 {
+      3966.4 126.16 110.09 2
+    }
+    <Vertex> 2 {
+      3876.9 266.93 109.47 3
+    }
+    <Vertex> 3 {
+      3796.05 467.76 101.69 4
+    }
+    <Vertex> 4 {
+      3754.79 673.45 80.21 5
+    }
+    <Vertex> 5 {
+      3730.43 837.63 69.53 6
+    }
+    <Vertex> 6 {
+      3659.06 938.74 58.52 7
+    }
+    <Vertex> 7 {
+      3539.83 982.72 50.66 8
+    }
+    <Vertex> 8 {
+      3538.13 988.04 47.35 9
+    }
+    <Vertex> 9 {
+      3314.88 978.62 44.58 10
+    }
+  }
+  <NurbsCurve> Line03 {
+    <Order> { 4 }
+    <Knots> {
+      0 0 0 0 0 0 0 1 1 1 1 1 1 1
+    }
+    <VertexRef> { 0 1 2 3 <Ref> { Line03.cvs } }
+    <VertexRef> { 4 5 6 7 <Ref> { Line03.cvs } }
+    <VertexRef> { 8 9 <Ref> { Line03.cvs } }
+  }
+}

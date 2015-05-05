@@ -1,0 +1,35 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> "Scene Root" {
+  <Group> Line03 {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        913.506 176.065 0 1
+      }
+    }
+    <VertexPool> Line03.cvs {
+      <Vertex> 0 {
+        77.1718 -143.636 27.2554 1
+      }
+      <Vertex> 1 {
+        70.8286 -133.745 27.0095 1
+      }
+      <Vertex> 2 {
+        64.4854 -123.854 26.7636 1
+      }
+      <Vertex> 3 {
+        58.1422 -113.962 26.5178 1
+      }
+    }
+    <NurbsCurve> Line03 {
+      <Order> { 4 }
+      <Knots> {
+        0 0 0 0 1 1 1 1
+      }
+      <VertexRef> { 0 1 2 3 <Ref> { Line03.cvs } }
+    }
+  }
+}

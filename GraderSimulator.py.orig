@@ -1,0 +1,619 @@
+# -*- coding: utf-8 -*-
+from pandac.PandaModules import loadPrcFileData
+
+MODE = 1
+if MODE == 1:
+    loadPrcFileData("", """win-origin -900 0 
+win-size  3080 1440 
+undecorated 0""")
+elif MODE == 2:
+    loadPrcFileData("", """win-origin -900 0 
+win-size 3080 1440 
+undecorated 1""")
+else:
+    loadPrcFileData("", """win-origin 0 300 
+win-size 1680 350 
+undecorated 1""")
+USE_JOYSTICK = True
+import direct.directbase.DirectStart
+from direct.showbase.DirectObject import DirectObject
+from direct.task.Task import Task
+
+from pandac.PandaModules import AmbientLight,DirectionalLight
+from pandac.PandaModules import TextNode,NodePath,LightAttrib
+from pandac.PandaModules import Vec2,Vec3,Vec4,BitMask32
+from pandac.PandaModules import PandaNode,Camera
+
+from pandac.PandaModules import GraphicsWindow
+from pandac.PandaModules import FrameBufferProperties
+from pandac.PandaModules import WindowProperties
+from pandac.PandaModules import GraphicsPipe
+
+from pandac.PandaModules import CollisionTraverser,CollisionNode
+from pandac.PandaModules import CollisionHandlerQueue,CollisionRay
+from pandac.PandaModules import GeoMipTerrain, PNMImage, Filename 
+from pandac.PandaModules import Texture, TextureStage, Shader
+
+from direct.interval.IntervalGlobal import *
+from direct.fsm import FSM
+
+import sys
+
+from Grader.Grader import Grader
+from Grader.Config import *
+from environment.Environment import *
+from ObjectMover import *
+from SnowMachine.SnowGrid import SnowGrid
+from Screens.Screens import *
+
+if USE_JOYSTICK == True:
+    import pygame
+
+plane_size = 1000
+split_count = 4
+
+if USE_JOYSTICK == True:
+    pygame.init()
+    print "Number of joysticks: "+str(pygame.joystick.get_count())
+    for i in range(0, pygame.joystick.get_count()):
+        print "Joystick("+str(i)+") ",
+        pygame.joystick.Joystick(i).init()
+        print "axes: " + str(pygame.joystick.Joystick(i).get_numaxes()),
+        print "buttons: " + str(pygame.joystick.Joystick(i).get_numbuttons())
+
+def debug(text):
+    print text
+
+FRONT_BLADE = 1
+MIDDLE_BLADE = 2     
+
+class GraderSimulator(FSM.FSM):
+        
+
+    keyboardMappingGame = { 
+        "arrow_left": "left", "arrow_right": "right", "arrow_up": "forward", "arrow_down": "reverse",
+        ".": "frontblade-up", ",": "frontblade-down", 
+        "page_up": "middleblade-up", "page_down": "middleblade-down", 
+        "z": "middleblade-rot-left", "x": "middleblade-rot-right", 
+        "home": "middleblade-left", "end": "middleblade-right", 
+        "k": "frontblade-left", "l": "frontblade-right", 
+        "a": "object-inc", "s": "object-dec", "q": "object-set",
+    }
+
+    keyboardMappingDefault = { 
+        "enter": "next-screen",
+        "escape": "prev-screen",
+    }
+
+    keyMap = {}
+    
+    nextState = {
+        ('Off', 'next-screen') : 'Startup',
+        ('Startup', 'next-screen') : 'Scenery',
+        ('Scenery', 'next-screen') : 'Instructions',
+        ('Scenery', 'prev-screen') : 'Startup',
+        ('Instructions', 'next-screen') : 'Game',
+        ('Instructions', 'prev-screen') : 'Scenery',
+        ('Game', 'next-screen') : 'GameOver',
+        ('Game', 'prev-screen') : 'Pause',
+#        ('Game', 'abort') : 'GameOver',
+        ('Pause', 'prev-screen') : 'Game',
+        ('Pause', 'next-screen') : 'GameOver',
+        ('GameOver', 'next-screen') : 'Startup',
+        ('GameOver', 'prev-screen') : 'Startup',
+        }
+
+    def defaultFilter(self, request, args):
+        print `(self.state, request)`
+        key = (self.state, request)
+        next = self.nextState.get(key)
+        print next
+        return next
+
+    def __init__(self):
+        FSM.FSM.__init__(self, 'dummy')
+        if MODE == 1:
+            self.setupScreenSingle(2)
+        else:
+            self.setupScreen()
+        self.env = Environment(render)
+        self.screens = Screens()
+        self.selectedBlade = MIDDLE_BLADE
+        #base.disableMouse();
+        self.lastUpdateTime = 0
+
+        self.cTrav = CollisionTraverser()
+        
+        self.grader = Grader(render, self.cTrav);
+        self.grader.body.setPos(GRADER_START_POS)
+        self.grader.body.setHpr(GRADER_START_HPR)
+        #self.grader.moveForward()
+
+        #self.cam1.setPos(self.grader.body, CAMERA_LEFT_POS)
+        #self.cam2.setPos(self.grader.body, CAMERA_MIDDLE_POS) 
+        #self.cam3.setPos(self.grader.body, CAMERA_RIGHT_POS)
+        self.setupLights()
+        #self.setupKeys(self.keyboardMappingGame)
+
+        # Create a floater object.  We use the "floater" as a temporary
+        # variable in a variety of calculations.
+        self.floater_cam_middle_pos = NodePath(PandaNode("floater_cam_middle_pos"))
+        self.floater_cam_middle_pos.reparentTo(self.grader.body)
+        self.floater_cam_middle_pos.setPos(self.grader.body, CAMERA_MIDDLE_POS) 
+        
+        self.floater_cam_left = NodePath(PandaNode("floater_cam_left"))
+        self.floater_cam_left.reparentTo(render)
+        self.floater_cam_middle = NodePath(PandaNode("floater_cam_middle"))
+        self.floater_cam_middle.reparentTo(render)
+        self.floater_cam_right = NodePath(PandaNode("floater_cam_right"))
+        self.floater_cam_right.reparentTo(render)
+        self.floater_cam_middle.show()
+        #self.objectMover = ObjectMover(self.cam2, 0.1)
+        
+        #self.floater_cam_middle.setPos(CAMERA_MIDDLE_LOOK_INITIAL)
+        self.objectMover = ObjectMover(self.cam2,0.05,self.grader.body)
+
+        #self.snow = SnowGrid(render)
+
+        #taskMgr.add(self.handleInputs,"handleInputsTask")
+        #taskMgr.add(self.updateTerrainTask,"update")
+        #base.toggleWireframe( ) 
+#        self.request('next-screen')
+        self.request('Game')
+
+        
+    #Sets up some default lighting
+    def setupLights(self):
+        ambientLight = AmbientLight( "ambientLight" )
+        ambientLight.setColor( Vec4(.4, .4, .35, 1) )
+
+        directionalLight = DirectionalLight( "directionalLight" )
+        directionalLight.setDirection( Vec3( 0, 8, -2.5 ) )
+        directionalLight.setColor( Vec4( 0.9, 0.8, 0.9, 1 ) )
+
+        ambientLightNP = render.attachNewNode(ambientLight)
+        render.setLight(ambientLightNP)
+        directionalLightNP = render.attachNewNode(directionalLight)
+        # This light is facing backwards, towards the camera.
+        #directionalLightNP.setHpr(180, -20, 0)
+        render.setLight(directionalLightNP)
+        
+    def doNothing(self):
+        pass
+        
+    def enableBasicInputs(self):
+        print "enableBasicInputs"
+        self.accept("escape", self.prevScreen)
+        self.accept("enter", self.nextScreen)
+
+    def enableSelectInputs(self):
+        print "enableSelectInputs"
+        self.accept("arrow_left", self.selectPrev)
+        self.accept("arrow_right", self.selectNext)
+        
+    def enableGameInputs(self):
+        print "enableGameInputs"
+        self.setupKeys(self.keyboardMappingGame)
+        
+    def disableInputs(self):
+        print "disableInputs"
+        self.accept("escape", self.doNothing)
+        self.accept("enter", self.doNothing)
+        self.accept("arrow_left", self.doNothing)
+        self.accept("arrow_right", self.doNothing)
+        self.setupKeys()
+        
+    def setupKeys(self, mapping = {} ):
+        self.keyMap = {}
+        for key in mapping.keys():
+            self.accept(key, self.setKey, [mapping[key],1])
+            self.accept(key+'-up', self.setKey, [mapping[key],0]) 
+            self.keyMap[mapping[key]] = 0
+	
+    #Records the state of the arrow keys
+    def setKey(self, key, value):
+        self.keyMap[key] = value
+        
+    def nextScreen(self):
+        self.request('next-screen')
+    def prevScreen(self):
+        self.request('prev-screen')
+
+    # Accepts arrow keys to move either the player or the menu cursor,
+    # Also deals with grid checking and collision detection
+    def handleInputs(self, task):
+        #debug("handleInputs")
+         
+        # Get the time elapsed since last frame. We need this
+        # for framerate-independent movement.
+        elapsed = globalClock.getDt()
+#        startpos = self.grader.body.getPos()
+        # Consume PyGame events.
+        # This seems superfluous, but it is necessary.
+        # Otherwise get_axis and get_button don't work.
+        
+        if USE_JOYSTICK == True:
+        
+            for e in pygame.event.get(): 
+                if e.joy == 0:
+                  if e.type == pygame.JOYAXISMOTION:
+                    if e.axis == 0:
+                        self.grader.steer(e.value)
+                    elif e.axis == 1:
+                        self.grader.accelerate(e.value)
+                
+            """
+            if e.type == pygame.JOYBUTTONUP :
+                if self.selectedBlade == MIDDLE_BLADE:
+                    if e.button == 0: self.setKey("reverse",0)
+                    elif e.button == 3: self.setKey("reverse",0)
+                    elif e.button == 1: self.setKey("forward",0)
+                    elif e.button == 2: self.setKey("middleblade-left",0)
+                    elif e.button == 4: self.selectedBlade = FRONT_BLADE
+                else:
+                    if e.button == 3: self.setKey("frontblade-up",0)
+                    elif e.button == 1: self.setKey("frontblade-left",0)
+                    elif e.button == 4 : self.selectedBlade = MIDDLE_BLADE
+              elif e.type == pygame.JOYBUTTONDOWN :
+                if self.selectedBlade == MIDDLE_BLADE:
+                    if e.button == 0: self.setKey("reverse",1)
+                    elif e.button == 3: self.setKey("reverse",1)
+                    elif e.button == 1: self.setKey("forward",1)
+                    elif e.button == 2: self.setKey("middleblade-left",1)
+                else:
+                    if e.button == 3: self.setKey("frontblade-up",1)
+                    elif e.button == 1: self.setKey("frontblade-down",1)
+              elif e.type == pygame.JOYAXISMOTION:
+                print "sfdsFDS"+ `e.axis`
+                " "" if e.axis == 1:
+                    if round(e.value) < 0: 
+                        self.setKey("reverse",0)
+                        self.setKey("forward",1)
+                    elif round(e.value) > 0:
+                        self.setKey("reverse",1)
+                        self.setKey("forward",0)
+                    else:
+                        self.setKey("reverse",0)
+                        self.setKey("forward",0)
+                el
+                "" "
+                if e.axis == 0:
+                    if round(e.value) < 0: 
+                        self.setKey("left",1)
+                        self.setKey("right",0)
+                    elif round(e.value) > 0:
+                        self.setKey("left",0)
+                        self.setKey("right",1)
+                    else:
+                        self.setKey("left",0)
+                        self.setKey("right",0)
+              print `e`
+        
+            """
+        # If a move-key is pressed, move grader.body in the specified direction.
+        if (self.keyMap["left"]!=0):     self.grader.turnLeft()
+        if (self.keyMap["right"]!=0):    self.grader.turnRight()
+        if USE_JOYSTICK == False:
+            if (self.keyMap["left"] ==0 and self.keyMap["right"] == 0):
+                self.grader.idleTurn()
+
+        if (self.keyMap["forward"]!=0):  self.grader.moveForward()
+        if (self.keyMap["reverse"]!=0):  self.grader.moveBackward()
+        if USE_JOYSTICK == False:
+            if (self.keyMap["forward"] ==0 and self.keyMap["reverse"] == 0):
+                self.grader.idleSpeed()
+
+        #if (self.grader.hasMoved()):    
+        #    self.grader.paintGround(self.tracks)
+        #if (self.keyMap["frontblade-down"]!=0):  
+        #    self.tracks.write('test.png')
+
+        if (self.keyMap["middleblade-left"]!=0):  self.grader.middleBladeLeft()
+        if (self.keyMap["middleblade-right"]!=0):  self.grader.middleBladeRight()
+
+        if (self.keyMap["middleblade-rot-left"]!=0):  self.grader.middleBladeRotateLeft()
+        if (self.keyMap["middleblade-rot-right"]!=0):  self.grader.middleBladeRotateRight()
+
+        if (self.keyMap["middleblade-up"]!=0):  self.grader.middleBladeUp()
+        if (self.keyMap["middleblade-down"]!=0):  self.grader.middleBladeDown()
+
+        if (self.keyMap["frontblade-up"]!=0): self.grader.frontBladeUp()
+        if (self.keyMap["frontblade-down"]!=0): self.grader.frontBladeDown()
+
+        if (self.keyMap["frontblade-left"]!=0): self.grader.frontBladeLeft()
+        if (self.keyMap["frontblade-right"]!=0): self.grader.frontBladeRight()
+
+        
+        """
+        if joystick.get_axis(0) < 0: self.grader.moveForward()
+        if joystick.get_axis(0) > 0: self.grader.moveBackward()
+        if joystick.get_axis(0) > 0: self.grader.turnLeft()
+        if joystick.get_axis(0) < 0: self.grader.turnRight()
+
+        if self.selectedBlade == MIDDLE_BLADE:
+            if joystick.get_button(0): self.grader.middleBladeDown()
+            if joystick.get_button(3): self.grader.middleBladeUp()
+            if joystick.get_button(1): self.grader.middleBladeLeft()
+            if joystick.get_button(2): self.grader.middleBladeRight()
+        else:
+            if joystick.get_button(0): self.grader.frontBladeDown()
+            if joystick.get_button(3): self.grader.frontBladeUp()
+        #print `(joystick.get_axis(1),joystick.get_button(1))`
+           """
+        self.grader.move()
+        # Now check for collisions.
+        #self.cTrav.traverse(render)
+
+        #self.grader.checkGroundLevel()
+        # adust cameras  
+        self.objectMover.handleKeys(self.keyMap)
+        self.cam1.setPos(self.grader.body, CAMERA_LEFT_POS/self.grader.getScale())
+        self.cam2.setPos(self.grader.body, self.floater_cam_middle_pos.getPos()/self.grader.getScale())
+        self.cam3.setPos(self.grader.body, CAMERA_RIGHT_POS/self.grader.getScale())
+        mpos = Vec2(0,0)
+        if base.mouseWatcherNode.hasMouse():
+            #get the mouse position as a Vec2. The values for each axis are from -1 to
+            #1. The top-left is (-1,-1), the bottom right is (1,1)
+            mpos = base.mouseWatcherNode.getMouse()
+        mouseLook = Vec3( 500* -mpos.getX(), 0,  500* mpos.getY())
+        mouseLook2 = Vec3( 500* -mpos.getX(), 0,  500* mpos.getY())
+        #mouseLook2 = Vec3(0, 0,  0)
+        """
+        self.floater_cam_left.setPos(self.grader.body, (CAMERA_LEFT_LOOK + mouseLook)*self.grader.getScale())
+        self.floater_cam_middle.setPos(self.grader.body, (CAMERA_MIDDLE_LOOK + mouseLook2)*self.grader.getScale())
+        self.floater_cam_right.setPos(self.grader.body, (CAMERA_RIGHT_LOOK  +  mouseLook)*self.grader.getScale())
+        """
+        #self.cam2.setHpr(self.grader.body.getHpr())
+        #self.cam1.lookAt(self.grader.frontBlade.upArm2)
+        """
+        self.cam1.lookAt(self.floater_cam_left)
+        self.cam2.lookAt(self.floater_cam_middle)
+        self.cam3.lookAt(self.floater_cam_right)
+        """
+        self.cam1.setHpr(self.grader.body, (CAMERA_LEFT_HPR))
+        self.cam2.setHpr(self.grader.body, (CAMERA_MIDDLE_HPR))
+        self.cam3.setHpr(self.grader.body, (CAMERA_RIGHT_HPR))
+
+        return Task.cont
+        
+    def updateTerrainTask(self, task):
+        #self.grader.paintGround(self.tracks)
+        tex3 = Texture()
+        tex3.load(self.tracks)
+        self.snowplane.setShaderInput("ground", self.ground)
+        self.snowplane.setShaderInput("snow", self.snow)
+        self.snowplane.setShaderInput("tracks", tex3)
+        """
+        #print 'aaaaa'
+        x = int( ( self.x0 - self.grader.frontBlade.blade.getX(render) ) ) 
+        y = int( ( self.y0 - self.grader.frontBlade.blade.getY(render) ) ) 
+        if abs( x - self.fx ) > self.threshhold or abs( y - self.fy ) > self.threshhold: 
+            self.grader.paintGround(self.myImage)
+            self.terrain.setHeightfield(self.myImage)
+            #print `((x,y),(self.fx,self.fy), 128*WORLD_SCALE, self.cam3.getX( ))`
+            self.fx = x 
+            self.fy = y 
+            tex3 = Texture()
+            tex3.load(self.tracks)
+            self.snowplane.setShaderInput("placementMap2", tex3)
+            #self.snowplane.
+#            self.terrain.setFocalPoint( 128*SNOW_SCALE-self.fx, 128*SNOW_SCALE-self.fy ) 
+            
+#            self.terrain.update()
+            # Generate it.
+        """
+        return task.cont
+        
+    def createCamera(self, dispRegion, aspect):
+        camera=base.makeCamera(base.win,displayRegion=dispRegion, aspectRatio=aspect)
+        #camera.node().getLens().setViewHpr(x, y, z)
+        camera.node().getLens().setFov(70) 
+        camera.node().getLens().setNear(0.1)
+        #camera.node().getLens().setAspectRatio(aspect)
+        
+        return camera
+
+    def setupScreenSingle(self, cam):
+
+        dr = base.camNode.getDisplayRegion(0)
+        if cam ==1:
+            self.cam1 = self.createCamera((0, 1, 0, 1), 45.0, 52.5, 0)
+            self.cam2 = NodePath(PandaNode("cam2"))
+            self.cam3 = NodePath(PandaNode("cam3"))
+            dr.setCamera(self.cam1)
+        elif cam == 2:
+            self.cam1 = NodePath(PandaNode("cam1"))
+            self.cam2 = self.createCamera((0, 1, 0, 1), 2.1389)
+            self.cam3 = NodePath(PandaNode("cam3"))
+            dr.setCamera(self.cam2)
+        elif cam == 3:
+            self.cam1 = NodePath(PandaNode("cam1"))
+            self.cam2 = NodePath(PandaNode("cam2"))
+            self.cam3 = self.createCamera((0, 1, 0, 1), 45.0, 52.5, 0)
+            dr.setCamera(self.cam3)
+        
+    def setupScreen(self):
+        # set the default display region to inactive so we can remake it
+
+
+
+        dr = base.camNode.getDisplayRegion(0)
+        dr.setActive(0)
+
+
+        #settings for main cam, which we will not really be displaying. Actually, this code might be
+        # unnecessary!
+
+        #base.camLens.setViewHpr(45.0, 52.5, 0)
+        #base.camLens.setFov(112)
+
+
+        # set up my dome-friendly display regions to reflect the dome geometry
+
+        window = dr.getWindow()
+        dr1 = window.makeDisplayRegion(0, 0.292, 0, 1)
+        dr1.setSort(dr.getSort())
+        dr2 = window.makeDisplayRegion(0.292, 0.708, 0, 1)
+        dr2.setSort(dr2.getSort())
+        dr3 = window.makeDisplayRegion(0.708, 1, 0, 1)
+        dr3.setSort(dr3.getSort())
+        #dr1.setClearDepthActive(True)
+        #dr2.setClearDepthActive(True)
+        #dr3.setClearDepthActive(True)
+
+        camNode1 = Camera('cam1')
+        self.cam1 = NodePath(camNode1)
+        dr1.setCamera(self.cam1)
+        self.cam1.node().getLens().setAspectRatio(float(dr1.getPixelWidth()) / float(dr1.getPixelHeight()))
+        self.cam1.node().getLens().setNear(0.1)
+
+        camNode2 = Camera('cam2')
+        self.cam2 = NodePath(camNode2)
+        dr2.setCamera(self.cam2)
+        self.cam2.node().getLens().setAspectRatio(float(dr2.getPixelWidth()) / float(dr2.getPixelHeight()))
+        self.cam2.node().getLens().setNear(0.1)
+        
+        camNode3 = Camera('cam3')
+        self.cam3 = NodePath(camNode3)
+        dr3.setCamera(self.cam3)
+        self.cam3.node().getLens().setAspectRatio(float(dr3.getPixelWidth()) / float(dr3.getPixelHeight()))
+        self.cam3.node().getLens().setNear(0.1)
+
+        print self.cam1.node().getLens().getFov() 
+        print self.cam2.node().getLens().getFov() 
+        print self.cam3.node().getLens().getFov() 
+        self.cam1.node().getLens().setFov(55) 
+        self.cam2.node().getLens().setFov(70) 
+        self.cam3.node().getLens().setFov(55) 
+        
+        #self.cam1.reparentTo(base.camera)
+        # create four cameras, one per region, with the dome geometry. Note that we're not using the 
+        # base cam. I tried this at first, pointing the base cam at region 1. It worked, but it threw the 
+        # geometry off for some reason. The fix was to create four cameras, parent them to the base 
+        # cam, and off we go. 
+
+        #self.cam1 = self.createCamera((0, 0.292, 0, 1), float(dr1.getPixelWidth()) / float(dr1.getPixelHeight()))
+        #dr1.setCamera(self.cam1)
+        #self.cam2 = self.createCamera((0.292, 0.708, 0.2889, 1), float(dr1.getPixelWidth()) / float(dr1.getPixelHeight()))
+        #dr2.setCamera(self.cam2)
+        #self.cam3 = self.createCamera((0.708, 1, 0, 1), float(dr1.getPixelWidth()) / float(dr1.getPixelHeight()))
+        #dr3.setCamera(self.cam3)
+
+
+        # loading some baked-in model
+
+
+        self.cam1.reparentTo(base.cam)
+        self.cam2.reparentTo(base.cam)
+        self.cam3.reparentTo(base.cam)
+ 
+    def enterStartup(self):
+        """
+        Sequence(
+            LerpPosInterval(self.cam2, pos=CAMERA_MIDDLE_POS_STARTUP, duration=0.1),
+            Func(self.enableBasicInputs)
+            ).start()
+            """
+        print "enterStartup"
+        self.enableBasicInputs()
+        self.screens.startup.show()
+        # reset grader, camera and scenery
+        self.grader.body.setPos(GRADER_START_POS)
+        self.grader.body.setHpr(GRADER_START_HPR)
+
+        self.cam2.setPos(CAMERA_MIDDLE_POS_STARTUP)
+        self.floater_cam_middle.setPos(CAMERA_MIDDLE_LOOK_STARTUP)
+        self.cam2.lookAt(self.floater_cam_middle)
+        print `self.cam2.getHpr()`
+        
+        
+    def exitStartup(self):
+        print "exitStartup"
+        self.disableInputs()
+        self.screens.startup.hide()
+        Sequence(
+            Wait(4),
+            Func(self.enableBasicInputs)
+            ).start()
+        
+    def enterScenery(self):
+        Sequence(
+            LerpPosHprInterval(self.cam2, pos=CAMERA_MIDDLE_POS_SCENERY, hpr=CAMERA_MIDDLE_HPR_SCENERY, duration=3),
+            Func(self.enableSelectInputs),
+            Func(self.screens.scenery.show)
+            ).start()
+        
+    def exitScenery(self):
+        self.screens.scenery.hide()
+
+    def enterInstructions(self):
+        """
+        self.cam2.setPos(self.grader.body, CAMERA_MIDDLE_POS/self.grader.getScale()) 
+        self.floater_cam_middle.setPos(self.grader.body, (CAMERA_MIDDLE_LOOK)*self.grader.getScale())
+        self.cam2.lookAt(self.floater_cam_middle)
+        print `(self.cam2.getPos(), self.cam2.getHpr())`
+        self.screens.instructions.show()
+        """
+        Sequence(
+            LerpPosHprInterval(self.cam2, pos=CAMERA_MIDDLE_POS_INSTRUCTIONS, hpr=CAMERA_MIDDLE_HPR_INSTRUCTIONS, duration=4),
+            Func(self.enableSelectInputs),
+            Func(self.screens.instructions.show)
+            ).start()
+
+        
+    def exitInstructions(self):
+        self.screens.instructions.hide()
+        self.disableInputs()
+
+    def enterGame(self):
+        self.screens.game.show()
+        self.enableGameInputs()
+        self.enableBasicInputs()
+        taskMgr.add(self.handleInputs,"handleInputsTask")
+        self.cam2.node().getLens().setFov(120) 
+        
+    def exitGame(self):
+        self.screens.game.hide()
+        self.disableInputs()
+        taskMgr.remove("handleInputsTask")
+        
+    def enterPause(self):
+        self.enableBasicInputs()
+        self.screens.pause.show()
+        
+    def exitPause(self):
+        self.screens.pause.hide()
+        self.disableInputs()
+
+    def enterGameOver(self):
+        self.enableBasicInputs()
+        self.screens.gameover.show()
+        
+    def exitGameOver(self):
+        self.screens.gameover.hide()
+        self.disableInputs()
+
+    def defaultEnter(self):
+        print "defaultEnter"
+        
+    def defaultExit(self):
+        print "defaultExit"
+
+    def selectNext(self):
+        print "selectNext on "+self.state
+        if self.state == "Scenery":
+            self.screens.scenery.selectNext()
+            self.env.selectNext()
+
+    def selectPrev(self):
+        print "selectPrev on "+self.state
+        if self.state == "Scenery":
+            self.screens.scenery.selectPrev()
+            self.env.selectPrev()
+            
+            
+w = GraderSimulator()
+run()
+
+joystick.quit()
+pygame.quit() 

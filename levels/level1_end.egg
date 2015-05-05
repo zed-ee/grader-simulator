@@ -1,0 +1,118 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> character {
+  <Group> "level_ends" {
+    <Group> level1_end {
+      <VertexPool> level1_end.verts {
+        <Vertex> 0 {
+          348.354 415.89 40.0226
+          <Normal> { -0.5 0.866025 1.11956e-007 }
+        }
+        <Vertex> 1 {
+          348.354 415.89 53.8856
+          <Normal> { -0.5 0.866025 1.11956e-007 }
+        }
+        <Vertex> 2 {
+          393.077 441.71 53.8856
+          <Normal> { -0.5 0.866025 1.11956e-007 }
+        }
+        <Vertex> 3 {
+          393.077 441.71 40.0226
+          <Normal> { -0.5 0.866025 1.11956e-007 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 0 1 2 <Ref> { level1_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 3 0 <Ref> { level1_end.verts } }
+      }
+    }
+  <Group> level2_end {
+    <VertexPool> level2_end.verts {
+      <Vertex> 0 {
+        445.834 257.378 14.5154
+        <Normal> { -0.422618 0.906308 7.72868e-009 }
+      }
+      <Vertex> 1 {
+        445.834 257.378 57.0383
+        <Normal> { -0.422618 0.906308 3.06496e-008 }
+      }
+      <Vertex> 2 {
+        483.063 274.738 57.0383
+        <Normal> { -0.422618 0.906308 8.71596e-009 }
+      }
+      <Vertex> 3 {
+        483.063 274.738 14.5154
+        <Normal> { -0.422618 0.906308 -1.4205e-008 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { level2_end.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 0 <Ref> { level2_end.verts } }
+    }
+  }
+  <Group> level3_end {
+    <VertexPool> level3_end.verts {
+      <Vertex> 0 {
+        748.863 189.968 11.4837
+        <Normal> { -0.939693 -0.34202 4.37114e-008 }
+      }
+      <Vertex> 1 {
+        748.863 189.968 27.4812
+        <Normal> { -0.939693 -0.34202 4.37114e-008 }
+      }
+      <Vertex> 2 {
+        734.813 228.568 27.4812
+        <Normal> { -0.939693 -0.34202 4.37114e-008 }
+      }
+      <Vertex> 3 {
+        734.813 228.568 11.4837
+        <Normal> { -0.939693 -0.34202 4.37114e-008 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { level3_end.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 2 3 0 <Ref> { level3_end.verts } }
+    }
+  }
+  <Group> level4_end {
+    <VertexPool> level4_end.verts {
+      <Vertex> 0 {
+        981.355 78.2678 40.1828
+        <Normal> { -0.422618 0.906308 -4.37114e-008 }
+      }
+      <Vertex> 1 {
+        981.355 78.2678 24.1853
+        <Normal> { -0.422618 0.906308 -4.37114e-008 }
+      }
+      <Vertex> 2 {
+        944.126 60.9077 40.1828
+        <Normal> { -0.422618 0.906308 -4.37114e-008 }
+      }
+      <Vertex> 3 {
+        944.126 60.9077 24.1853
+        <Normal> { -0.422618 0.906308 -4.37114e-008 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 0 1 2 <Ref> { level4_end.verts } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 3 2 1 <Ref> { level4_end.verts } }
+    }
+  }
+  }
+}

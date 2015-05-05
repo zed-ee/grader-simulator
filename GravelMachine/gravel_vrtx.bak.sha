@@ -1,0 +1,111 @@
+//GLSL
+uniform sampler2D heightmap;
+uniform sampler2D heightmap2;
+uniform sampler2D normalmap;
+//uniform sampler2D snow;
+uniform sampler2D bumpMap;
+uniform sampler2D tracks;
+uniform vec4 pos;
+
+varying vec3 normal;
+varying vec3 vertex_to_light_vector;
+varying vec4 cdiff;
+
+#define max_height (60.0 * 4.0)	// black value
+#define min_height 0.0
+#define BITMAP_SIZE 257.0
+#define REAL_SIZE (1200.0*4.0)
+#define PLANE_SIZE 80.0 //* 2.5
+void main(void)
+{
+	vec4 newVertexPos;
+	vec4 origVertexPos;
+	vec4 dsnow;
+	vec4 dtracks;
+	vec4 dground;
+	vec4 dground2;
+	vec4 dnormal;
+	vec4 bump;
+	float df;
+    vec4 realcoord;
+	gl_TexCoord[0].xy = gl_MultiTexCoord0.xy;
+	gl_TexCoord[1].xy = gl_MultiTexCoord0.xy;
+	cdiff = vec4(0.5, 0.5, 0.9, 0);
+   
+    origVertexPos = clamp(gl_Vertex, -39.5, 39.5);
+//    origVertexPos = gl_Vertex;
+//    realcoord = ((((BITMAP_SIZE*(gl_Vertex + pos) / REAL_SIZE)-2.0) / BITMAP_SIZE)+1.0)/ BITMAP_SIZE;
+    realcoord = ((origVertexPos + pos) / REAL_SIZE);
+//	vec4 realcoord = ((((256*(gl_Vertex + pos) /100)-2) /256)+1)/256;
+	//gl_TexCoord[1].xy = realcoord.xy;
+	gl_TexCoord[0].xy = origVertexPos.xy / PLANE_SIZE + 0.5;
+
+//    dsnow = texture2D(snow, gl_MultiTexCoord0.xy);
+    dground = texture2D(heightmap, realcoord.xy);
+    dground2 = texture2D(heightmap2, realcoord.xy);
+    dnormal = texture2D(normalmap, realcoord.xy);
+    dtracks = texture2D(tracks, gl_TexCoord[0].xy);
+	df = max_height - (dground.z * max_height) + min(dtracks.z, dtracks.x)*0.5 - 0.1;
+    bump = texture2D(bumpMap, gl_TexCoord[0].xy*2);
+
+    //float snow_height = dground.b * max_height + pos.a;
+    //float track_height = (1.0-dtracks.b)*pos.a * bump.b;
+    float bump_height = (1.0-bump.b)*pos.a * dground2.b;
+    cdiff.g = 1.0-bump_height;
+       
+//    float snow_height = dground.b * max_height - ((1.0-dtracks.b)*pos.a * bump.b);
+    float snow_height = dground.b * max_height - bump_height;
+    float orig_snow_height = dground.b * max_height; 
+    float track_height = (dtracks.b * 25) - 15.0 + pos.z;
+    float pile_height = (dtracks.r * 25) - 15.0 + pos.z;
+    float weight = dtracks.g;
+	if 	(dground2.r  > 0 || gl_Vertex.x > 40.0 || gl_Vertex.y > 40.0 || gl_Vertex.x < -40.0 || gl_Vertex.y < -40.0) {
+		df = -30.0;
+	} else {
+    
+//		df = max_height - (dground.b * max_height) + (dtracks.b * pos.a) - pos.z - 0.05;
+        if (dtracks.b < 1) { // clear snow
+          if (orig_snow_height > track_height) {
+            float diff = snow_height - track_height;
+            if (diff < 10) {
+                float x = cdiff.g;//(4 - diff) / 12;
+                cdiff =  vec4(dground.b, 1.0, diff, weight);
+                snow_height = orig_snow_height;// - diff * weight;
+                //snow_height = track_height;
+                //snow_height = snow_height - 1*weight;
+            }
+          }
+        } /*else if (dtracks.r < 1) { // create pile
+          if (snow_height > pile_height) {
+            float diff = snow_height - pile_height;
+            float weight = 1 + dtracks.a;
+            if (diff < 3) {
+                float x = (diff / 6) + 0.5;
+                cdiff =  vec4(dground.b, x, diff, weight);
+                snow_height =  snow_height + diff * weight * 0.3;
+            }
+            //snow_height = snow_height + 1*weight;
+          }
+        }*/
+      
+		df = snow_height - pos.z +1 * dground2.b -0.3;
+	}
+	
+    
+	newVertexPos = gl_Vertex;// + pos;
+	newVertexPos = vec4(gl_Normal * df, 0.0) + newVertexPos;
+	//newVertexPos.z = 0.0 - df;
+	//newVertexPos.z = realcoord.x;
+	gl_Position = gl_ModelViewProjectionMatrix *  newVertexPos;
+
+	// LIGHTING
+	// Transforming The Normal To ModelView-Space
+	normal = gl_NormalMatrix * gl_Normal; 
+
+	// Transforming The Vertex Position To ModelView-Space
+	vec4 vertex_in_modelview_space = gl_ModelViewMatrix * gl_Vertex;
+
+	// Calculating The Vector From The Vertex Position To The Light Position
+	//vertex_to_light_vector = vec3(gl_LightSource[0].position – vertex_in_modelview_space);	
+
+}

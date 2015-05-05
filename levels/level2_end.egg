@@ -1,0 +1,83 @@
+<CoordinateSystem> { Z-Up }
+
+<Group> character {
+  <Dart> { 1 }
+  <Group> "Scene Root" {
+    <Group> level3_end {
+      <VertexPool> level3_end.verts {
+        <Vertex> 0 {
+          748.863 189.968 7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 1 {
+          748.863 189.968 -7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 2 {
+          745.35 199.618 7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 3 {
+          745.35 199.618 -7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 4 {
+          741.838 209.268 7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 5 {
+          741.838 209.268 -7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 6 {
+          738.325 218.918 7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 7 {
+          738.325 218.918 -7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 8 {
+          734.813 228.568 7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+        <Vertex> 9 {
+          734.813 228.568 -7.99876
+          <Normal> { 0.939693 0.34202 -4.37114e-008 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 0 1 2 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 3 2 1 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 3 4 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 5 4 3 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 4 5 6 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 6 5 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 6 7 8 <Ref> { level3_end.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 9 8 7 <Ref> { level3_end.verts } }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<CoordinateSystem> { Z-Up }
+
+<Table> {
+  <Bundle> character {
+    <Table> "<skeleton>" {
+    }
+  }
+}

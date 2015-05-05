@@ -1,0 +1,11 @@
+TARKVARA LITSENTSI TINGIMUSED
+Copyright (c) 2010, Andres Viikmaa
+All rights reserved.
+
+Antud tarkvara on antud Lõuna Regionaalse Maanteameti kasutusse vastavalt töövõtulepingule nt. 4.2/1349.
+
+Lõuna Regionaalse Maanteametil on õigus kastuada antud tarkvara nii kuidas ta heaks arvab, muuta tarkvara lähtekoodi ilma autori nõusolekuta.
+
+Keelatud on tarkvara edasi müüa kolmandatele osapooltele ilma autori nõusolekuta.
+
+
